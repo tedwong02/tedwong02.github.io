@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chia Te Wang | Personal Website</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #fdf6e3;
+      color: #2e2e2e;
+    }
+    header {
+      background: linear-gradient(to right, #ff8c42, #ff3c38);
+      color: white;
+      padding: 3em 1em 2em;
+      text-align: center;
+      position: relative;
+    }
+    .profile-pic {
+      width: 140px;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 5px solid white;
+      position: absolute;
+      top: 1em;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+      background-color: #fff;
+    }
+    header h1 {
+      margin-top: 80px;
+      font-size: 2.5em;
+      font-weight: 700;
+    }
+    header p {
+      font-size: 1.1em;
+      margin-top: 0.5em;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 3em 1.5em;
+    }
+    section {
+      margin-bottom: 3em;
+    }
+    h2 {
+      font-size: 1.5em;
+      color: #ff3c38;
+      border-left: 5px solid #ff3c38;
+      padding-left: 0.5em;
+      margin-bottom: 1em;
+    }
+    ul {
+      padding-left: 1.2em;
+      line-height: 1.8;
+    }
+    .email {
+      display: inline-block;
+      margin-top: 1em;
+      padding: 0.6em 1.2em;
+      background-color: #ffffff;
+      color: #ff3c38;
+      border: 2px solid #ffffff;
+      border-radius: 25px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+    .email:hover {
+      background-color: #ff3c38;
+      color: white;
+      border: 2px solid white;
+    }
+    footer {
+      text-align: center;
+      padding: 2em;
+      background: #ffe5d0;
+      color: #555;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img class="profile-pic" src="https://via.placeholder.com/140" alt="Profile Picture">
+    <h1>Chia Te Wang</h1>
+    <p>Hi, I'm a master's student in the Department of Power Mechanical Engineering at National Tsing Hua University.<br>
+    I'm currently conducting research in the field of robotic control and hope to further advance in this area in the future.</p>
+    <a class="email" href="mailto:tedmasted02@gmail.com">tedmasted02@gmail.com</a>
+  </header>
+
+  <div class="container">
+    <section>
+      <h2>Education</h2>
+      <ul>
+        <li>B.S. in System and Naval Mechatronic Engineering, National Cheng Kung University (Sep. 2020 – Jun. 2024)</li>
+        <li>M.S. in the Department of Power Mechanical Engineering (Control Division), National Tsing Hua University (Sep. 2025 – Present)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Projects & Research</h2>
+      <ul>
+        <li><strong>Ship Structure Analysis</strong> — Analyzed hull structure using Simpson's rule to calculate shear forces and bending moments, followed by result evaluation.</li>
+        <li><strong>Sound Source Guidance</strong> — Used signals received from microphones to analyze frequency changes and guide ship direction accordingly.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Patent</h2>
+      <ul>
+        <li>Holder of a utility model patent in Taiwan: <em>Innovative Hygienic Spoon</em></li>
+      </ul>
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2025 Chia Te Wang. All rights reserved.
+  </footer>
+</body>
+</html>
